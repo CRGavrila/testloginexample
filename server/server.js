@@ -11,9 +11,7 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 
 // GET //
-app.get('/', (req,res)=>{
-    res.status(200).send('ok now')
-})
+
 
 app.get('/sendTOAWS', (req,res)=>{
     res.status(200).send('ok now')
@@ -21,14 +19,6 @@ app.get('/sendTOAWS', (req,res)=>{
 
 
 // POST //
-app.post('/',(req,res)=>{
-
-        res.status(200).json({
-            status : ok
-        })
-
-})
-
 
 // UPDATE //
 
