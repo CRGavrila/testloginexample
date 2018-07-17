@@ -12,7 +12,7 @@ const Header = () => {
         <header className="headerLP">
             
                 <Link to='/' className="logoLP">
-                    Chat Marketing Romania
+                    Chat Marketing Romania!
                 </Link>
             <div  className="headerLP-right">
                 <Link to='/' className="aboutUS">
