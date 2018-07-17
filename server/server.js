@@ -10,6 +10,8 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cookieParser());
 
+app.use(express.static('client/build'));
+
 // GET //
 
 
